@@ -47,6 +47,9 @@ a:focus, button:focus{
 .w-280i{ width: 280px !important; }
 .w-350i{ width: 350px !important; }
 /* padding y margin */
+.p-l-50{ padding-left: 50px; }
+.p-l-25i{ padding-left: 25px !important; }
+.p-r-28i{ padding-right: 28px !important; }
 .p-t-40{ padding-top: 40px; }
 .p-t-55{ padding-top: 55px; }
 .p-t-50{ padding-top: 50px; }
@@ -58,12 +61,50 @@ a:focus, button:focus{
 .p-b-40{ padding-bottom: 40px; }
 .p-b-45{ padding-bottom: 45px; }
 /* border */
+.b-b-1{ border-bottom: 1px solid #C4C4C4; }
 /* height y width */
 .h-36{ height: 36px; }
 .h-45{ height: 45px; }
 .h-68{ height: 68px; }
+.lh-17{ line-height: 17px; }
+.lh-23{ line-height: 23px; }
 .lh-25{ line-height: 25px; }
 .lh-34{ line-height: 34px; }
+/* checkbox y radios */
+.form-check{
+  padding-left: 3.25rem;
+}
+.form-check-input{
+  width: 22px;
+  height: 22px;
+  margin-left: -2.25rem;
+}
+.form-check-label{
+  font-size: 22px;
+}
+/* sidebar accordion */
+.accordion .card-header{ background-color: #000; }
+.accordion .card-header button{ 
+  font-size: 22px; 
+  line-height: 23px;
+  color: #ffffff; 
+  padding: 0; 
+}
+.accordion .card-body .card{ 
+  border: 0;
+}
+.accordion .card-body .card-header{ 
+  border: 0;
+  background-color: transparent; 
+  padding:  0;
+}
+.accordion .card-body .card-header button{ 
+  border: 0;
+  padding: 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+}
 /* combobox personalizado */
 .custom-select {
   background: #C4C4C4;
@@ -122,16 +163,25 @@ a:focus, button:focus{
 }
 /* modales */
 /* header */
+.navbar-brand{
+  padding-left: 40px;
+  padding-top: 11px;
+}
+.nivel1 .right{
+  padding-top: 13px !important;
+  padding-right: 46px !important;
+  padding-left: 0;
+}
 header .nivel1{ 
   border-bottom: 1px solid #C4C4C4;
-  padding: 0 25px; 
-  padding-bottom: 35px;
+  padding-top: 26px; 
+  padding-bottom: 25px;
 }
 header .menu{ 
-  height: 88px;
+  height: 86px;
 }
 header nav ul li > a{
-  padding-left: 70px !important;
+  padding-left: 64px !important;
 }
 .btn-contact{
   width: 170px;
@@ -220,7 +270,7 @@ footer ul li{ list-style: none; }
 footer ul li a{ 
   font-size:20px;
   color: #ffffff !important; 
-  margin-bottom: 21px;
+  margin-bottom: 17px;
   display: block;
 }
 footer .feedback{
