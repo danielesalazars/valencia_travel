@@ -70,6 +70,7 @@ a:focus, button:focus{
 .lh-23{ line-height: 23px; }
 .lh-25{ line-height: 25px; }
 .lh-34{ line-height: 34px; }
+.lh-40{ line-height: 40px; }
 /* checkbox y radios */
 .form-check{
   padding-left: 3.25rem;
@@ -260,6 +261,14 @@ header nav ul li > a{
   width: 222px;
   height: 142px;
   margin-bottom: 25px;
+}
+/* pagina de tours */
+.tour_item .card{
+  margin-bottom: 30px;
+}
+.tour_item .card-body{
+  min-height: 105px;
+  padding: 15px;
 }
 /* footer */
 footer .container{
