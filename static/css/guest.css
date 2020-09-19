@@ -22,6 +22,9 @@ a:focus, button:focus{
   background-image: none;
 }
 /* top bottom left right */
+.bottom-45i{ bottom: 45px !important; }
+.right-25i{ right: 25px !important; }
+.right-50i{ right: 50px !important; }
 /* background */
 .bc-3583E0{ background-color: #3583E0; }
 .bc-266DD8{ background-color: #266DD8; }
@@ -40,6 +43,7 @@ a:focus, button:focus{
 .fs-26{ font-size: 26px; }
 .fs-30{ font-size: 30px; }
 .fs-35{ font-size: 35px; }
+.fs-48{ font-size: 48px; }
 /* width */
 .w-88{ width: 88px; }
 .w-110{ width: 110px; }
@@ -49,10 +53,13 @@ a:focus, button:focus{
 /* padding y margin */
 .p-l-50{ padding-left: 50px; }
 .p-l-25i{ padding-left: 25px !important; }
+.p-r-0{ padding-right: 0; }
 .p-r-28i{ padding-right: 28px !important; }
+.p-t-30{ padding-top: 30px; }
 .p-t-40{ padding-top: 40px; }
 .p-t-55{ padding-top: 55px; }
 .p-t-50{ padding-top: 50px; }
+.p-t-70{ padding-top: 70px; }
 .p-t-80{ padding-top: 80px; }
 .p-b-10{ padding-bottom: 10px; }
 .p-b-20{ padding-bottom: 20px; }
@@ -60,6 +67,7 @@ a:focus, button:focus{
 .p-b-30{ padding-bottom: 30px; }
 .p-b-40{ padding-bottom: 40px; }
 .p-b-45{ padding-bottom: 45px; }
+.p-b-70{ padding-bottom: 70px; }
 /* border */
 .b-b-1{ border-bottom: 1px solid #C4C4C4; }
 /* height y width */
@@ -71,6 +79,7 @@ a:focus, button:focus{
 .lh-25{ line-height: 25px; }
 .lh-34{ line-height: 34px; }
 .lh-40{ line-height: 40px; }
+.lh-48{ line-height: 48px; }
 /* checkbox y radios */
 .form-check{
   padding-left: 3.25rem;
@@ -84,6 +93,16 @@ a:focus, button:focus{
   font-size: 22px;
 }
 /* sidebar accordion */
+#sidebar-filter .card-header{
+  background-color: #ffffff;
+}
+#sidebar-filter .card-header button{
+  color: #000000;
+}
+#sidebar-filter .card-body{
+  background-color: #E5E5E5;
+  margin-bottom: 18px;
+}
 .accordion .card-header{ background-color: #000; }
 .accordion .card-header button{ 
   font-size: 22px; 
@@ -212,6 +231,7 @@ header nav ul li > a{
 }
 .vacation_info h3{ margin: 0; }
 .vacation_info p{ display:none; padding-top: 50px; }
+.vacation_item{ margin-bottom: 70px; }
 .vacation_item:hover .vacation_info{ top: 0; }
 .vacation_item:hover .vacation_info p{ display: block; }
 .carousel-caption-flex{ 
@@ -224,14 +244,19 @@ header nav ul li > a{
   left: 0;
   bottom: 0;
 }
-.fondo{
-  background: radial-gradient(35.77% 35.77% at 50% 50%, rgba(43, 41, 41, 0) 0%, rgba(0, 0, 0, 0.112) 55.52%, rgba(0, 0, 0, 0.448) 100%);
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+.fondo, .fondo2{
   position: absolute;
   left: 0;
   right: 0;
   bottom: 0;
   top: 0;
+}
+.fondo{
+  background: radial-gradient(35.77% 35.77% at 50% 50%, rgba(43, 41, 41, 0) 0%, rgba(0, 0, 0, 0.112) 55.52%, rgba(0, 0, 0, 0.448) 100%);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.fondo2{
+  background: linear-gradient(267.13deg, rgba(30, 29, 29, 0.8) 29.42%, rgba(141, 137, 137, 0) 67.17%);
 }
 .traveler_item{
   background: rgba(0, 0, 0, 0.7);
@@ -269,6 +294,10 @@ header nav ul li > a{
 .tour_item .card-body{
   min-height: 105px;
   padding: 15px;
+}
+/* pagina de vacation types */
+#vacation_type_style{
+  padding-bottom: 90px;
 }
 /* footer */
 footer .container{

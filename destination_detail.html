@@ -17,7 +17,7 @@
     <link rel="icon" type="image/png" href="./static/img/favicon.svg">
     <title>Valencia Travel</title>
   </head>
-  <body class="pageTours">
+  <body class="pageDestinationDetail">
     <header>
       <div class="container">
         <div class="row flex-nowrap justify-content-between align-items-start d-none d-md-flex nivel1">
@@ -96,15 +96,48 @@
         </div>
       </div>
     </header>
-    <section id="tours_all">
+    <section id="slider">
       <div class="container">
-        <div class="row p-t-55 p-b-40">
-          <div class="col-10 mx-auto">
-            <div class="row">
-              <h2 class="title text-center fs-30">All our Tours (232)</h2>
+        <div class="row">
+          <div class="col-10 mx-auto p-0">
+            <h2 class="title fs-30 m-0 p-t-30 p-b-45">Destination - Arequipa</h2>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="static/img/slider_arequipa.jpg" class="d-block w-100" alt="...">
+                  <div class="fondo2"></div>
+                  <div class="carousel-caption d-none d-md-block carousel-caption-flex align-items-end bottom-45i right-25i">
+                    <div class="col-12">
+                      <div class="fs-48 text-white text-right">
+                        Arequipa
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+      </div>
+    </section>
+    <section id="overview">
+      <div class="container">
+        <div class="row p-t-70 p-b-40">
+          <div class="col-10 mx-auto">
+            <div class="row">
+              <h2 class="title text-center fs-30 m-0 p-b-70">Overview</h2>
+              <p class="fs-30 lh-34">
+                Acá debería ir on overview sobre Arequipa This is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. <br><br>
+
+                Acá debería ir on overview sobre Arequipa This is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+              </p>  
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="tours_all">
+      <div class="container">
         <div class="row">
           <div class="col-10 mx-auto p-0">
             <div class="row">
@@ -122,120 +155,6 @@
                       <div class="card-body">
                         <div class="btn bc-000000 text-white">
                           December <i class="fas fa-times-circle"></i>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion" id="sidebar-accordion">
-                  <div class="card">
-                    <div class="card-header" id="destinations">
-                      <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#c_1" aria-expanded="true" aria-controls="c_1">
-                          Destinations
-                        </button>
-                      </h2>
-                    </div>
-                    <div id="c_1" class="collapse show" aria-labelledby="destinations" data-parent="#sidebar-accordion">
-                      <div class="card-body">
-                        <div class="accordion" id="subsidebar-1">
-                          <div class="card">
-                            <div class="card-header" id="destination_1">
-                              <h2 class="mb-0">
-                                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#sc_1" aria-expanded="true" aria-controls="sc_1">
-                                  Perú
-                                </button>
-                              </h2>
-                            </div>
-                            <div id="sc_1" class="collapse show" aria-labelledby="destination_1" data-parent="#subsidebar-1">
-                              <div class="card-body p-0">
-                                <div class="form-check">
-                                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                  <label class="form-check-label" for="defaultCheck1">
-                                    Arequipa
-                                  </label>
-                                </div>
-                                <div class="form-check">
-                                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
-                                  <label class="form-check-label" for="defaultCheck2">
-                                    Ayacucho
-                                  </label>
-                                </div>
-                                <div class="form-check">
-                                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
-                                  <label class="form-check-label" for="defaultCheck3">
-                                    Chachapoyas
-                                  </label>
-                                </div>
-                                <div class="form-check">
-                                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
-                                  <label class="form-check-label" for="defaultCheck4">
-                                    Cusco
-                                  </label>
-                                </div>
-                                <div class="form-check">
-                                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck5">
-                                  <label class="form-check-label" for="defaultCheck5">
-                                    Tacna
-                                  </label>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="accordion" id="subsidebar-2">
-                          <div class="card">
-                            <div class="card-header" id="destination_2">
-                              <h2 class="mb-0">
-                                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#sc_2" aria-expanded="true" aria-controls="sc_2">
-                                  Ecuador
-                                </button>
-                              </h2>
-                            </div>
-                            <div id="sc_2" class="collapse show" aria-labelledby="destination_2" data-parent="#subsidebar-2">
-                              <div class="card-body p-0">
-                                <div class="form-check">
-                                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck20">
-                                  <label class="form-check-label" for="defaultCheck20">
-                                    Islas Galápagos
-                                  </label>
-                                </div>
-                                <div class="form-check">
-                                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck21">
-                                  <label class="form-check-label" for="defaultCheck21">
-                                    Isla Santa Cruz
-                                  </label>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="accordion" id="subsidebar-3">
-                          <div class="card">
-                            <div class="card-header" id="destination_3">
-                              <h2 class="mb-0">
-                                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#sc_3" aria-expanded="true" aria-controls="sc_3">
-                                  Bolivia
-                                </button>
-                              </h2>
-                            </div>
-                            <div id="sc_3" class="collapse show" aria-labelledby="destination_3" data-parent="#subsidebar-3">
-                              <div class="card-body p-0">
-                                <div class="form-check">
-                                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck20">
-                                  <label class="form-check-label" for="defaultCheck20">
-                                    Salar de Uyuni
-                                  </label>
-                                </div>
-                                <div class="form-check">
-                                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck21">
-                                  <label class="form-check-label" for="defaultCheck21">
-                                    Uyuni
-                                  </label>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
                         </div>
                       </div>
                     </div>
