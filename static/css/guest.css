@@ -38,7 +38,9 @@ a:focus, button:focus{
 .fs-12{ font-size: 12px; }
 .fs-15{ font-size: 15px; }
 .fs-20{ font-size: 20px; }
+.fs-20i{ font-size: 20px !important; }
 .fs-22{ font-size: 22px; }
+.fs-24{ font-size: 24px; }
 .fs-25{ font-size: 25px; }
 .fs-26{ font-size: 26px; }
 .fs-30{ font-size: 30px; }
@@ -68,12 +70,15 @@ a:focus, button:focus{
 .p-b-40{ padding-bottom: 40px; }
 .p-b-45{ padding-bottom: 45px; }
 .p-b-70{ padding-bottom: 70px; }
+.m-b-40{ margin-bottom: 40px; }
+.m-b-100{ margin-bottom: 100px; }
 .m-b-200{ margin-bottom: 200px; }
 /* border */
 .b-b-1{ border-bottom: 1px solid #C4C4C4; }
 /* height y width */
 .h-36{ height: 36px; }
 .h-45{ height: 45px; }
+.h-57{ height: 57px; }
 .h-68{ height: 68px; }
 .lh-17{ line-height: 17px; }
 .lh-23{ line-height: 23px; }
