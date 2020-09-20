@@ -68,6 +68,7 @@ a:focus, button:focus{
 .p-b-40{ padding-bottom: 40px; }
 .p-b-45{ padding-bottom: 45px; }
 .p-b-70{ padding-bottom: 70px; }
+.m-b-200{ margin-bottom: 200px; }
 /* border */
 .b-b-1{ border-bottom: 1px solid #C4C4C4; }
 /* height y width */
@@ -77,8 +78,10 @@ a:focus, button:focus{
 .lh-17{ line-height: 17px; }
 .lh-23{ line-height: 23px; }
 .lh-25{ line-height: 25px; }
+.lh-29{ line-height: 29px; }
 .lh-34{ line-height: 34px; }
 .lh-40{ line-height: 40px; }
+.lh-45{ line-height: 45px; }
 .lh-48{ line-height: 48px; }
 /* checkbox y radios */
 .form-check{
