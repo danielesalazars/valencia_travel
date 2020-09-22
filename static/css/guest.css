@@ -76,6 +76,7 @@ a:focus, button:focus{
 .p-b-40{ padding-bottom: 40px; }
 .p-b-45{ padding-bottom: 45px; }
 .p-b-70{ padding-bottom: 70px; }
+.m-t-20{ margin-top: 20px; }
 .m-t-30{ margin-top: 30px; }
 .m-r-20{ margin-right: 20px; }
 .m-r-50{ margin-right: 50px; }
@@ -330,7 +331,7 @@ a:focus, button:focus{
 }
 .day_item{
   font-size: 30px;
-  margin-top: 20px;
+  margin-bottom: 20px;
 }
 #following .container{
   background-color: #F7F5F5;
@@ -339,12 +340,9 @@ a:focus, button:focus{
 }
 .pageTourDetails .content-details{
   background-color: #F7F5F5;
-  padding: 15px 40px;
+  padding: 15px 20px;
 }
 .pageTourDetails .details{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   margin: 25px 0;
 }
 .pageTourDetails .details .circle{
