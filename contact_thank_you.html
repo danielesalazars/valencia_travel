@@ -19,8 +19,8 @@
   </head>
   <body class="pageInicio">
     <header>
-      <div class="container">
-        <div class="row flex-nowrap justify-content-between align-items-start d-none d-md-flex nivel1">
+      <div class="header-lg container d-none d-md-block">
+        <div class="row flex-nowrap justify-content-between align-items-start nivel1">
           <div class="col-auto p-0">
             <a class="navbar-brand" href="#">
               <img src="static/img/logo.png" alt="">
@@ -52,7 +52,52 @@
           </div>
         </div>
         <div class="row b-b-1">
-          <nav class="menu navbar navbar-expand-lg navbar-light p-l-50">
+          <nav class="menu1 navbar navbar-expand-lg navbar-light p-l-50 d-none d-md-flex">
+            <a class="navbar-brand d-md-none" href="#">
+              <img src="static/img/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Destinations
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">
+                    Experiences <span class="sr-only">(current)</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Tailor Made Tours</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Our Purpose</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div class="header-xs container d-block d-md-none">
+        <div class="b-b-1">
+          <nav class="menu2 navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand d-md-none" href="#">
               <img src="static/img/logo.png" alt="">
             </a>
@@ -118,7 +163,7 @@
     <footer>
       <div class="container bc-000000">
         <div class="row position-relative">
-          <div class="col-7">
+          <div class="col-12 col-md-7 p-0 m-b-50">
             <h6 class="fw-bold fs-20 text-white m-0 p-b-20">For Tour Operators</h6>
             <p class="fs-20 text-white p-b-30 lh-23">
               USA and Canada Toll Free: (+1) 800 773 9048 <br>
@@ -128,17 +173,17 @@
               Office #: 306-307 / Cusco - Peru
             </p>
             <h5 class="fs-25 fw-bold text-white p-b-25">Follow us</h5>
-            <a href="#" class="d-inline-block p-b-10"><img src="static/img/ico-facebook.png" alt=""></a>
-            <a href="#" class="d-inline-block p-b-10"><img src="static/img/ico-instagram.png" alt=""></a>
-            <a href="#" class="d-inline-block p-b-10"><img src="static/img/ico-vimeo.png" alt=""></a>
-            <a href="#" class="d-inline-block p-b-10"><img src="static/img/ico-pinterest.png" alt=""></a>
-            <a href="#" class="d-inline-block p-b-10"><img src="static/img/ico-linkedin.png" alt=""></a> <br>
-            <a href="#" class="d-inline-block p-b-10"><img src="static/img/ico-tripadvisor.png" alt=""></a>
-            <a href="#" class="d-inline-block p-b-10"><img src="static/img/ico-skype.png" alt=""></a>
-            <a href="#" class="d-inline-block p-b-10"><img src="static/img/ico-youtube.png" alt=""></a>
-            <a href="#" class="d-inline-block p-b-10"><img src="static/img/ico-twitter.png" alt=""></a>
+            <a href="#" class="d-inline-block p-b-10"><img width="50" src="static/img/ico-facebook.png" alt=""></a>
+            <a href="#" class="d-inline-block p-b-10"><img width="50" src="static/img/ico-instagram.png" alt=""></a>
+            <a href="#" class="d-inline-block p-b-10"><img width="50" src="static/img/ico-vimeo.png" alt=""></a>
+            <a href="#" class="d-inline-block p-b-10"><img width="50" src="static/img/ico-pinterest.png" alt=""></a>
+            <a href="#" class="d-inline-block p-b-10"><img width="50" src="static/img/ico-linkedin.png" alt=""></a> <br>
+            <a href="#" class="d-inline-block p-b-10"><img width="50" src="static/img/ico-tripadvisor.png" alt=""></a>
+            <a href="#" class="d-inline-block p-b-10"><img width="50" src="static/img/ico-skype.png" alt=""></a>
+            <a href="#" class="d-inline-block p-b-10"><img width="50" src="static/img/ico-youtube.png" alt=""></a>
+            <a href="#" class="d-inline-block p-b-10"><img width="50" src="static/img/ico-twitter.png" alt=""></a>
           </div>
-          <div class="col-5">
+          <div class="col-12 col-md-5 p-0">
             <h6 class="fw-bold fs-20 text-white m-0 p-b-20">For Tour Operators</h6>
             <ul>
               <li><a href="#">Destinations</a></li>
@@ -149,11 +194,12 @@
               <li><a href="#">Contact Us</a></li>
             </ul>
           </div>
-          <a href="#" class="feedback">Feedback</a>
+          <a href="#" class="feedback d-none d-block-lg">Feedback</a>
         </div>
-        <div class="row p-t-50">
-          <div class="col-12">
-            <p class="m-0 fs-20 text-white">2016 Valencia Travel Cusco, Inc. All Rights Reserved: Terms & Conditions - Contact us</p>
+        <div class="row">
+          <div class="col-12 p-0">
+            <p class="m-0 fs-20 text-white d-none d-md-block">2016 Valencia Travel Cusco, Inc. All Rights Reserved: Terms & Conditions - Contact us</p>
+            <p class="m-0 fs-20 text-white d-md-none">2016 Valencia Travel Cusco, Inc. All Rights Reserved: <br><br>Terms & Conditions - Contact us</p>
           </div>
         </div>
       </div>
