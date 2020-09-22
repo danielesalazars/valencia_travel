@@ -416,6 +416,9 @@ footer .feedback{
   #recommendations .recommendation_subscribe h4{
     font-size: 20px;
   }
+  .pageDestinationDetail #slider .carousel-caption{
+    display: none !important;
+  } 
   footer{
 
   }
