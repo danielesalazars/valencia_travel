@@ -49,7 +49,7 @@ a:focus, button:focus{
 /* width */
 .w-88{ width: 88px; }
 .w-110{ width: 110px; }
-.w-170{ width: 170px; }
+.mw-170{ min-width: 170px; }
 .w-260{ width: 260px; }
 .w-300{ width: 300px; }
 .w-280i{ width: 280px !important; }
@@ -79,7 +79,10 @@ a:focus, button:focus{
 .m-t-30{ margin-top: 30px; }
 .m-r-20{ margin-right: 20px; }
 .m-r-50{ margin-right: 50px; }
+.m-b-25{ margin-bottom: 25px; }
+.m-b-30{ margin-bottom: 30px; }
 .m-b-40{ margin-bottom: 40px; }
+.m-b-50{ margin-bottom: 50px; }
 .m-b-60{ margin-bottom: 60px; }
 .m-b-100{ margin-bottom: 100px; }
 .m-b-200{ margin-bottom: 200px; }
@@ -201,7 +204,7 @@ a:focus, button:focus{
 }
 /* modales */
 /* header */
-.navbar-brand{
+.nivel1 .navbar-brand{
   padding-left: 40px;
   padding-top: 11px;
 }
@@ -210,15 +213,15 @@ a:focus, button:focus{
   padding-right: 46px !important;
   padding-left: 0;
 }
-header .nivel1{ 
+.header-lg .nivel1{ 
   border-bottom: 1px solid #C4C4C4;
   padding-top: 26px; 
   padding-bottom: 25px;
 }
-header .menu{ 
+.header-lg .menu1{ 
   height: 86px;
 }
-header nav ul li > a{
+.header-lg nav ul li > a{
   padding-left: 64px !important;
 }
 .btn-contact{
@@ -300,9 +303,10 @@ header nav ul li > a{
   min-height: 255px;
 }
 .rectangulo_gris{
+  width: 100%;
   background-color: #C4C4C4;
-  width: 222px;
-  height: 142px;
+  max-height: 95px;
+  min-height: 142px;
   margin-bottom: 25px;
 }
 /* pagina de tours */
@@ -359,7 +363,7 @@ header nav ul li > a{
 }
 /* footer */
 footer .container{
-  padding: 80px 55px 40px 55px;
+  padding: 80px 45px 40px 45px;
 }
 footer ul{ padding: 0; }
 footer ul li{ list-style: none; }
@@ -391,4 +395,27 @@ footer .feedback{
   .container{ max-width: 1440px; }
 }
 @media (max-width: 414px){
+  #slider .carousel-caption{
+    padding: 30px 0;
+    position: relative;
+    background-color: #000000;
+  }
+  .fs-35{ font-size: 24px; }
+  #travelers .carousel-caption,
+  #recommendations .carousel-caption{
+    position: relative;
+  }
+  #travelers .traveler_item{
+    background-color: #000000;
+  }
+  #recommendations .recommendation_subscribe{
+    background-color: #000000;
+    padding: 30px 0;
+  }
+  #recommendations .recommendation_subscribe h4{
+    font-size: 20px;
+  }
+  footer{
+
+  }
 }
